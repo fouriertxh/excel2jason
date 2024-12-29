@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	myApp := app.New()
+	myApp := app.NewWithID("laohudong.com.myapp")
 	myWindow := myApp.NewWindow("Excel 和 JSON 转换工具")
 	myWindow.Resize(fyne.NewSize(500, 300))
 
